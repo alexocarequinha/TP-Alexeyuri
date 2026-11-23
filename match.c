@@ -1,12 +1,14 @@
 #include "match.h"
 #include <stdlib.h>
 
+// Guarda o id da partida, os ids dos dois times (t1, t2) e os gols de cada um (g1, g2)
 struct match {
     int id;
     int t1, t2;
     int g1, g2;
 };
 
+// Cria uma partida na memoria e preenche com os ids e o placar lido do arquivo
 Match *match_create(int id, int t1, int t2, int g1, int g2) {
     Match *m = (Match *)malloc(sizeof(struct match));
     if (m != NULL) {
@@ -19,6 +21,7 @@ Match *match_create(int id, int t1, int t2, int g1, int g2) {
     return m;
 }
 
+// Libera a partida da memoria e funcoes para consultar os dados dela
 void match_free(Match *m) { free(m); }
 int match_id(Match *m) { return m->id; }
 int match_t1(Match *m) { return m->t1; }
