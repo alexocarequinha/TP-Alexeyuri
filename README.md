@@ -2,7 +2,8 @@
 # TP-Alex-Medeiros-de-Carvalho
 
 **Trabalho de Programação: Fechando o Campeonato**  
-**Aluno:** Alex Medeiros de Carvalho (`20252bsi0410`)
+**Alunos:
+** Alex Medeiros de Carvalho (`20252bsi0410`)
 
 Sistema de apuração do Campeonato Computacional de Futebol desenvolvido em **C**. O programa lê os dados dos times e os resultados das partidas a partir de arquivos CSV, atualiza as estatísticas de cada clube, ordena a classificação segundo os critérios do campeonato, exibe o relatório no terminal e salva a tabela final em arquivo.
 
