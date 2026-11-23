@@ -1,5 +1,5 @@
 ```markdown
-# TP-Alex-Medeiros-de-Carvalho
+# TP-Alexeyuri
 
 **Trabalho de Programação: Fechando o Campeonato**  
 **Alunos:
